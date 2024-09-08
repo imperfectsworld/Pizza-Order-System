@@ -1,0 +1,31 @@
+.soldOut{
+    text-decoration-line:line-through;
+    
+}
+
+h1{
+    text-align: center;
+    color:white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.centerTable{
+    
+    
+    
+    margin: 0% auto;
+    border: 10px;
+    border-color: red;
+    border-style: solid;
+    padding: 10px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231230/pngtree-high-resolution-close-up-of-a-white-textured-wallpaper-adorning-the-image_13869920.png");
+
+}
+
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/75/92/41/360_F_275924184_GP4ACV80EK8NokxlFaUB2qykpXKrroqx.jpg");    
+    width: 100vw;           
+    height: 100vh;          
+    
+
+}
