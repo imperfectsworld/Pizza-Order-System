@@ -36,7 +36,7 @@
         }
 
         <td>{{u.category}}</td>
-        <td>{{u.price}}</td>
+        <td>{{u.price | currency}}</td>
         @if(u.vegetarian === true)
         {
             <td>Vegetarian</td>
@@ -51,6 +51,7 @@
 
     
 }
-<h2>Current Order Cost:{{this.total}} </h2>
+<h2>Current Order Cost:{{this.total | currency}} </h2>
+<button (click) = "resetOrder()"> Reset Cart </button>
 </table>
 </body>
